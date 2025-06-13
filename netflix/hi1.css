@@ -1,0 +1,83 @@
+*{
+   margin:0;
+   padding:0;
+   
+
+}
+#main{
+   width:100%;
+   background:url("net.jpg");
+   height:100vh;
+   color:white;
+   background-size:cover;
+}
+#head label{
+   font-size:50px;
+   font-weight:700;
+   color:red;
+   position:absolute;
+   top:30px;
+   left:30px;
+   font-family: 'Bebas Neue', sans-serif;
+}
+#head select{
+   height:30px;
+   width:100px;
+   color:white;
+   background-color: black;
+   position:absolute;
+   right:100px;
+   top:10px;
+   font-size:20px;
+   border-radius:5px;
+}
+#head button{
+   color:white;
+   background-color:red;
+   border-radius:5px;
+   padding:5px;
+   width:80px;
+   position:absolute;
+   right:10px;
+   top:10px;
+   font-size:20px;
+   font-weight:700;
+}
+#sec {
+   width:100%;
+   height:100vh;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items:center;
+   font-size:25px;
+}
+#sec input{
+       width:250px; 
+       height:40px;
+       background-color: black;
+       border-color: green;
+      position:relative;
+      top:10px;
+}
+#sec #g{
+   position:relative;
+   bottom:42px;
+   left:230px;
+   width:150px;
+   height:40px;
+   border-radius:5px;
+   background-color: red;
+   color:white;
+   padding:5px;
+   font-weight:700;
+   font-size:20px;
+   margin-top: 10px;
+}
+#hi{
+   display:flex;
+}
+#head button:hover{
+   transform:scale(1.5);
+   transition: all 0.3s linear;
+}
